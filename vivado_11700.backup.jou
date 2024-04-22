@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Apr 19 21:55:59 2024
+# Process ID: 11700
+# Current directory: C:/Users/sek49/Documents/project_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9920 C:\Users\sek49\Documents\project_new\processor.xpr
+# Log file: C:/Users/sek49/Documents/project_new/vivado.log
+# Journal file: C:/Users/sek49/Documents/project_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sek49/Documents/project_new/processor.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/sek49/Documents/project_new/txuartlite.v C:/Users/sek49/Documents/project_new/rxuartlite.v}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/sek49/Documents/project_new/txuartlite.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sek49/Documents/project_new/txuartlite.v
+export_ip_user_files -of_objects  [get_files C:/Users/sek49/Documents/project_new/rxuartlite.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sek49/Documents/project_new/rxuartlite.v
+import_files -norecurse {C:/Users/sek49/Documents/project_new/txuartlite.v C:/Users/sek49/Documents/project_new/rxuartlite.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1

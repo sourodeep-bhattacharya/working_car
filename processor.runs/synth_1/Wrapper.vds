@@ -1,0 +1,910 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Apr 22 02:31:28 2024
+# Process ID: 23356
+# Current directory: C:/Users/sb734/Documents/project_new/processor.runs/synth_1
+# Command line: vivado.exe -log Wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Wrapper.tcl
+# Log file: C:/Users/sb734/Documents/project_new/processor.runs/synth_1/Wrapper.vds
+# Journal file: C:/Users/sb734/Documents/project_new/processor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Wrapper.tcl -notrace
+Command: synth_design -top Wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23964
+WARNING: [Synth 8-992] storeXM is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:55]
+WARNING: [Synth 8-992] storeMW is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:55]
+WARNING: [Synth 8-992] jr is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:90]
+WARNING: [Synth 8-992] branch is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:98]
+WARNING: [Synth 8-992] branch2 is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:107]
+WARNING: [Synth 8-992] branch3 is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:116]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:39]
+WARNING: [Synth 8-6901] identifier 'jr' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:39]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:40]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:43]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:44]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:48]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:48]
+WARNING: [Synth 8-6901] identifier 'branch0' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:86]
+WARNING: [Synth 8-6901] identifier 'jr0' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:87]
+WARNING: [Synth 8-992] newLocation is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:144]
+WARNING: [Synth 8-992] jr is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:147]
+WARNING: [Synth 8-992] target is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:149]
+WARNING: [Synth 8-992] jump is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:150]
+WARNING: [Synth 8-992] branch is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:151]
+WARNING: [Synth 8-992] pc3 is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:152]
+WARNING: [Synth 8-992] exceptUse is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:229]
+WARNING: [Synth 8-992] useRS1 is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:367]
+WARNING: [Synth 8-992] useRS2 is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:367]
+WARNING: [Synth 8-992] hazardHere is already implicitly declared earlier [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:368]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:102]
+WARNING: [Synth 8-6901] identifier 'nop' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:106]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:107]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:122]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:123]
+WARNING: [Synth 8-6901] identifier 'useRS2' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:123]
+WARNING: [Synth 8-6901] identifier 'nop' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:130]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:131]
+WARNING: [Synth 8-6901] identifier 'errorOccured' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:244]
+WARNING: [Synth 8-6901] identifier 'errorOut' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:244]
+WARNING: [Synth 8-6901] identifier 'useMemory' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:280]
+WARNING: [Synth 8-6901] identifier 'gyro' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:78]
+WARNING: [Synth 8-6901] identifier 'gyro' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:78]
+WARNING: [Synth 8-6901] identifier 'gyro' is used before its declaration [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:78]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1328.992 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Wrapper' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:20]
+INFO: [Synth 8-6157] synthesizing module 'dffe_ref' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/dffe_ref.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dffe_ref' (1#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/dffe_ref.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Fetch' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Fetch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/CLA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA_block' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/CLA_block.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU_adder' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ALU_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_adder' (2#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ALU_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CLA_block' (3#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/CLA_block.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CLA' (4#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/CLA.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Fetch' (5#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Fetch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'registerEx' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/registerEx.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'registerEx' (6#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/registerEx.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Decode' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Decode.v:1]
+INFO: [Synth 8-6157] synthesizing module 'completeType' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/completeType.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'completeType' (7#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/completeType.v:1]
+INFO: [Synth 8-6157] synthesizing module 'type' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/type.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'type' (8#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/type.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Decode' (9#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Decode.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Execute' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Execute.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'barrel_shifter_left' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/barrel_shifter_left.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_16' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_8' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_4' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_1' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_1' (10#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_2' (11#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_4' (12#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_8' (13#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_16' (14#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_left_16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_2' (15#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'barrel_shifter_left' (16#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/barrel_shifter_left.v:1]
+INFO: [Synth 8-6157] synthesizing module 'barrel_shifter_right' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/barrel_shifter_right.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_16' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_8' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_4' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_1' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_1' (17#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_2' (18#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_4' (19#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_8' (20#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_16' (21#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/shift_right_16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'barrel_shifter_right' (22#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/barrel_shifter_right.v:1]
+INFO: [Synth 8-6157] synthesizing module 'orer' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/orer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'orer' (23#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/orer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ander' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ander.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ander' (24#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ander.v:1]
+INFO: [Synth 8-6157] synthesizing module 'notter' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/notter.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'notter' (25#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/notter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_32' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_16' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_8' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_4' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4' (26#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_8' (27#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_16' (28#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_32' (29#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/mux_32.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_32' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/alu.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (30#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Execute' (31#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Execute.v:1]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:176]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:176]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:178]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:178]
+INFO: [Synth 8-6157] synthesizing module 'multdiv' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multdiv.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multdiv.v:54]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multdiv.v:55]
+INFO: [Synth 8-6157] synthesizing module 'counter' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/counter.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/counter.v:9]
+INFO: [Synth 8-6157] synthesizing module 'tflipflop' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/tflipflop.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'tflipflop' (32#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/tflipflop.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (33#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/counter.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'count' does not match port width (5) of module 'counter' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multdiv.v:62]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multdiv.v:76]
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multiplier.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multiplier.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (34#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multiplier.v:1]
+INFO: [Synth 8-6157] synthesizing module 'divider' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/divider.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/divider.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'divider' (35#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/divider.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multdiv.v:106]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multdiv.v:108]
+INFO: [Synth 8-6155] done synthesizing module 'multdiv' (36#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/multdiv.v:2]
+INFO: [Synth 8-6157] synthesizing module 'exceptions' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'exceptions' (37#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Memory' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Memory.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Memory' (38#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Memory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'bypassing' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hazard' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hazard' (39#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bypassing' (40#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'processor' (41#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/processor.v:20]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ROM.v:2]
+	Parameter MEMFILE bound to: 88'b0111000001110010011011110110101001100101011000110111010000101110011011010110010101101101 
+INFO: [Synth 8-3876] $readmem data file 'project.mem' is read successfully [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ROM.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (42#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ROM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (43#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/RAM.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (44#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/RAM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'pwn' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/pwn.v:2]
+INFO: [Synth 8-6157] synthesizing module 'PWMSerializers' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/PWMSerializers.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'PWMSerializers' (45#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/PWMSerializers.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'pwn' (46#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/pwn.v:2]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/top.v:20]
+INFO: [Synth 8-6157] synthesizing module 'iclk_gen' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/iclk_gen.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'iclk_gen' (47#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/iclk_gen.v:6]
+INFO: [Synth 8-6157] synthesizing module 'spi_master' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/spi_master.v:43]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/spi_master.v:196]
+INFO: [Synth 8-6155] done synthesizing module 'spi_master' (48#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/spi_master.v:43]
+INFO: [Synth 8-6157] synthesizing module 'seg7_control' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:86]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:103]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:128]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:145]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:171]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:188]
+INFO: [Synth 8-6155] done synthesizing module 'seg7_control' (49#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'top' (50#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/top.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'Wrapper' (51#1) [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1328.992 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1328.992 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1328.992 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.331 . Memory (MB): peak = 1328.992 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'JA[3]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[4]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[7]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[8]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[9]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[10]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[4]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[7]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[8]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[9]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[10]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[2]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[3]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[4]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[7]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[8]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[9]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[10]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_INT[1]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_INT[2]'. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/sb734/Documents/project_new/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1449.523 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1449.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1449.523 ; gain = 120.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1449.523 ; gain = 120.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1449.523 ; gain = 120.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'spi_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                POWER_UP |                          0000000 |                          0000000
+              BEGIN_SPIW |                          0000001 |                          0000001
+              SEND_WCMD7 |                          0000010 |                          0000010
+              SEND_WCMD6 |                          0000011 |                          0000011
+              SEND_WCMD5 |                          0000100 |                          0000100
+              SEND_WCMD4 |                          0000101 |                          0000101
+              SEND_WCMD3 |                          0000110 |                          0000110
+              SEND_WCMD2 |                          0000111 |                          0000111
+              SEND_WCMD1 |                          0001000 |                          0001000
+              SEND_WCMD0 |                          0001001 |                          0001001
+             SEND_WADDR7 |                          0001010 |                          0001010
+             SEND_WADDR6 |                          0001011 |                          0001011
+             SEND_WADDR5 |                          0001100 |                          0001100
+             SEND_WADDR4 |                          0001101 |                          0001101
+             SEND_WADDR3 |                          0001110 |                          0001110
+             SEND_WADDR2 |                          0001111 |                          0001111
+             SEND_WADDR1 |                          0010000 |                          0010000
+             SEND_WADDR0 |                          0010001 |                          0010001
+              SEND_BYTE7 |                          0010010 |                          0010010
+              SEND_BYTE6 |                          0010011 |                          0010011
+              SEND_BYTE5 |                          0010100 |                          0010100
+              SEND_BYTE4 |                          0010101 |                          0010101
+              SEND_BYTE3 |                          0010110 |                          0010110
+              SEND_BYTE2 |                          0010111 |                          0010111
+              SEND_BYTE1 |                          0011000 |                          0011000
+              SEND_BYTE0 |                          0011001 |                          0011001
+                    WAIT |                          0011010 |                          0011010
+              BEGIN_SPIR |                          0011011 |                          0011011
+              SEND_RCMD7 |                          0011100 |                          0011100
+              SEND_RCMD6 |                          0011101 |                          0011101
+              SEND_RCMD5 |                          0011110 |                          0011110
+              SEND_RCMD4 |                          0011111 |                          0011111
+              SEND_RCMD3 |                          0100000 |                          0100000
+              SEND_RCMD2 |                          0100001 |                          0100001
+              SEND_RCMD1 |                          0100010 |                          0100010
+              SEND_RCMD0 |                          0100011 |                          0100011
+             SEND_RADDR7 |                          0100100 |                          0100100
+             SEND_RADDR6 |                          0100101 |                          0100101
+             SEND_RADDR5 |                          0100110 |                          0100110
+             SEND_RADDR4 |                          0100111 |                          0100111
+             SEND_RADDR3 |                          0101000 |                          0101000
+             SEND_RADDR2 |                          0101001 |                          0101001
+             SEND_RADDR1 |                          0101010 |                          0101010
+             SEND_RADDR0 |                          0101011 |                          0101011
+               REC_XLSB7 |                          0101100 |                          0101100
+               REC_XLSB6 |                          0101101 |                          0101101
+               REC_XLSB5 |                          0101110 |                          0101110
+               REC_XLSB4 |                          0101111 |                          0101111
+               REC_XLSB3 |                          0110000 |                          0110000
+               REC_XLSB2 |                          0110001 |                          0110001
+               REC_XLSB1 |                          0110010 |                          0110010
+               REC_XLSB0 |                          0110011 |                          0110011
+               REC_XMSB7 |                          0110100 |                          0110100
+               REC_XMSB6 |                          0110101 |                          0110101
+               REC_XMSB5 |                          0110110 |                          0110110
+               REC_XMSB4 |                          0110111 |                          0110111
+               REC_XMSB3 |                          0111000 |                          0111000
+               REC_XMSB2 |                          0111001 |                          0111001
+               REC_XMSB1 |                          0111010 |                          0111010
+               REC_XMSB0 |                          0111011 |                          0111011
+               REC_YLSB7 |                          0111100 |                          0111100
+               REC_YLSB6 |                          0111101 |                          0111101
+               REC_YLSB5 |                          0111110 |                          0111110
+               REC_YLSB4 |                          0111111 |                          0111111
+               REC_YLSB3 |                          1000000 |                          1000000
+               REC_YLSB2 |                          1000001 |                          1000001
+               REC_YLSB1 |                          1000010 |                          1000010
+               REC_YLSB0 |                          1000011 |                          1000011
+               REC_YMSB7 |                          1000100 |                          1000100
+               REC_YMSB6 |                          1000101 |                          1000101
+               REC_YMSB5 |                          1000110 |                          1000110
+               REC_YMSB4 |                          1000111 |                          1000111
+               REC_YMSB3 |                          1001000 |                          1001000
+               REC_YMSB2 |                          1001001 |                          1001001
+               REC_YMSB1 |                          1001010 |                          1001010
+               REC_YMSB0 |                          1001011 |                          1001011
+               REC_ZLSB7 |                          1001100 |                          1001100
+               REC_ZLSB6 |                          1001101 |                          1001101
+               REC_ZLSB5 |                          1001110 |                          1001110
+               REC_ZLSB4 |                          1001111 |                          1001111
+               REC_ZLSB3 |                          1010000 |                          1010000
+               REC_ZLSB2 |                          1010001 |                          1010001
+               REC_ZLSB1 |                          1010010 |                          1010010
+               REC_ZLSB0 |                          1010011 |                          1010011
+               REC_ZMSB7 |                          1010100 |                          1010100
+               REC_ZMSB6 |                          1010101 |                          1010101
+               REC_ZMSB5 |                          1010110 |                          1010110
+               REC_ZMSB4 |                          1010111 |                          1010111
+               REC_ZMSB3 |                          1011000 |                          1011000
+               REC_ZMSB2 |                          1011001 |                          1011001
+               REC_ZMSB1 |                          1011010 |                          1011010
+               REC_ZMSB0 |                          1011011 |                          1011011
+                 END_SPI |                          1011100 |                          1011100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'spi_master'
+WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/seg7_control.v:87]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1449.523 ; gain = 120.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    1 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 384   
+	   2 Input      1 Bit         XORs := 15    
++---Registers : 
+	               32 Bit    Registers := 2     
+	               25 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               15 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1556  
++---RAMs : 
+	             128K Bit	(4096 X 32 bit)          RAMs := 1     
++---ROMs : 
+	                    ROMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 186   
+	  93 Input   32 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 1     
+	  93 Input   16 Bit        Muxes := 6     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 2     
+	  93 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 11    
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 16    
+	   3 Input    1 Bit        Muxes := 1     
+	  93 Input    1 Bit        Muxes := 7     
+	   8 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1460.289 ; gain = 131.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+---------------------+---------------+----------------+
+|Module Name | RTL Object          | Depth x Width | Implemented As | 
++------------+---------------------+---------------+----------------+
+|Wrapper     | InstMem/dataOut_reg | 4096x25       | Block RAM      | 
++------------+---------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Wrapper     | ProcMem/MemoryArray_reg | 4 K x 32(NO_CHANGE)    | W | R |                        |   |   | Port A           | 0      | 4      | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1460.289 ; gain = 131.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+      : CPU/b1/i_0/DXInstruction[13]
+      : CPU/b1/DXInstruction[25]
+      : CPU/i_0/exceptUse0[3]
+      : CPU/i_0/multE
+      : CPU/md1/data_exception
+      : CPU/md1/i_1/data_exception
+      : CPU/md1/i_1/data_operandA[29]
+      : CPU/md1/data_operandA[29]
+      : CPU/b1/useRS1[29]
+      : CPU/b1/i_0/useRS1[29]
+      : CPU/i_0/multE
+      : CPU/md1/data_exception
+      : CPU/md1/i_1/data_exception
+      : CPU/md1/i_1/data_operandA[29]
+      : CPU/md1/data_operandA[29]
+      : CPU/b1/useRS1[29]
+      : CPU/b1/i_0/useRS1[29]
+      : CPU/b1/i_0/DXInstruction[13]
+      : CPU/b1/DXInstruction[25]
+      : CPU/i_0/exceptUse0[3]
+      : CPU/i_0/multE
+      : CPU/md1/data_exception
+      : CPU/md1/i_1/data_exception
+      : CPU/md1/i_1/data_operandA[29]
+      : CPU/md1/data_operandA[29]
+      : CPU/b1/useRS1[29]
+      : CPU/b1/i_0/useRS1[29]
+      : CPU/b1/i_0/DXInstruction[14]
+      : CPU/b1/DXInstruction[26]
+      : CPU/i_0/exceptUse0[4]
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1460.289 ; gain = 131.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Wrapper     | ProcMem/MemoryArray_reg | 4 K x 32(NO_CHANGE)    | W | R |                        |   |   | Port A           | 0      | 4      | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/I1 (LUT2)
+     2: i_3364/O (LUT6)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     3: i_3364/I2 (LUT6)
+     4: i_3394/O (LUT6)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:43]
+     5: i_3394/I4 (LUT6)
+     6: i_3611/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+     7: i_3611/I1 (LUT2)
+     8: i_3614/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+     9: i_3614/I1 (LUT5)
+    10: i_4060/O (LUT6)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+    11: i_4060/I4 (LUT6)
+    12: \CPU/execute/ALU/added/i_/i_2332 /O (LUT6)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ALU_adder.v:5]
+    13: \CPU/execute/ALU/added/i_/i_2332 /I5 (LUT6)
+    14: \CPU/execute/ALU/added/i_/i_2388 /O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ALU_adder.v:5]
+    15: \CPU/execute/ALU/added/i_/i_2388 /I3 (LUT5)
+    16: i_3276/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
+    17: i_3276/I3 (LUT5)
+    18: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Inferred a: "set_disable_timing -from I1 -to O i_3412"
+Found timing loop:
+     0: i_3611/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+     1: i_3611/I1 (LUT2)
+     2: i_3614/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+     3: i_3614/I1 (LUT5)
+     4: i_4060/O (LUT6)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+     5: i_4060/I4 (LUT6)
+     6: \CPU/execute/ALU/added/i_/i_2332 /O (LUT6)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ALU_adder.v:5]
+     7: \CPU/execute/ALU/added/i_/i_2332 /I5 (LUT6)
+     8: \CPU/execute/ALU/added/i_/i_2388 /O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/ALU_adder.v:5]
+     9: \CPU/execute/ALU/added/i_/i_2388 /I3 (LUT5)
+    10: i_3276/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
+    11: i_3276/I3 (LUT5)
+    12: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+    13: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Inferred a: "set_disable_timing -from I1 -to O i_3611"
+Found timing loop:
+     0: i_3611/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+     1: i_3611/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3611/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+     1: i_3611/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3611/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+     1: i_3611/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3351/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
+     1: i_3351/I3 (LUT5)
+     2: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     3: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Inferred a: "set_disable_timing -from I3 -to O i_3351"
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3412/O (LUT2)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/hazard.v:46]
+     1: i_3412/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3351/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
+     1: i_3351/O (LUT5)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3351/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
+     1: i_3351/O (LUT5)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3351/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
+     1: i_3351/O (LUT5)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3351/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
+     1: i_3351/O (LUT5)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+Found timing loop:
+     0: i_3351/O (LUT5)
+      [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
+     1: i_3351/O (LUT5)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sb734/Documents/project_new/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ProcMem/MemoryArray_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance InstMem/dataOut_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance InstMem/dataOut_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance InstMem/dataOut_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1504.879 ; gain = 175.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1519.340 ; gain = 190.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1519.340 ; gain = 190.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1519.340 ; gain = 190.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1519.340 ; gain = 190.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1519.379 ; gain = 190.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1519.379 ; gain = 190.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     3|
+|2     |CARRY4   |    14|
+|3     |LUT1     |    33|
+|4     |LUT2     |   395|
+|5     |LUT3     |   275|
+|6     |LUT4     |   363|
+|7     |LUT5     |   559|
+|8     |LUT6     |  1858|
+|9     |MUXF7    |     2|
+|10    |RAMB36E1 |     7|
+|14    |FDCE     |     5|
+|15    |FDRE     |  1643|
+|16    |IBUF     |     3|
+|17    |OBUF     |    37|
+|18    |OBUFT    |     2|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1519.379 ; gain = 190.387
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 41 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1519.379 ; gain = 69.855
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1519.379 ; gain = 190.387
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.114 . Memory (MB): peak = 1531.434 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1536.090 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 1aceab31
+INFO: [Common 17-83] Releasing license: Synthesis
+134 Infos, 75 Warnings, 62 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1536.090 ; gain = 207.098
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/sb734/Documents/project_new/processor.runs/synth_1/Wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Wrapper_utilization_synth.rpt -pb Wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 22 02:32:34 2024...

@@ -1,0 +1,157 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Apr 22 02:33:23 2024
+| Host         : P2-01 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Wrapper_control_sets_placed.rpt
+| Design       : Wrapper
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    79 |
+|    Minimum number of control sets                        |    79 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   290 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    79 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |    35 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     3 |
+| >= 16              |    36 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             509 |          229 |
+| No           | No                    | Yes                    |               5 |            2 |
+| No           | Yes                   | No                     |              70 |           18 |
+| Yes          | No                    | No                     |             892 |          423 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             186 |           60 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                   Enable Signal                  |                Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+--------------------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+|  w_4MHz        | accel/master/mosi_i_1_n_0                        |                                               |                1 |              1 |         1.00 |
+|  w_4MHz        | accel/master/cs_i_1_n_0                          |                                               |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG |                                                  | clear                                         |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG |                                                  | accel/clock_generation/counter[4]_i_1_n_0     |                1 |              5 |         5.00 |
+| ~clock_BUFG    |                                                  | CPU/m1/ctrl                                   |                2 |              5 |         2.50 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[23].w3          | CPU/instruction2/thirty/q_reg_13              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[10].w3          | CPU/instruction2/thirty/q_reg_1               |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[5].w3           | CPU/instruction2/thirty/q_reg_23              |                1 |              6 |         6.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[13].w3          | CPU/instruction2/thirty/q_reg_22              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[12].w3          | CPU/instruction2/thirty/q_reg_29              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[27].w3          | CPU/instruction2/thirty/q_reg_11              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[18].w3          | CPU/instruction2/thirty/q_reg_2               |                3 |              6 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[26].w3          | CPU/instruction2/thirty/q_reg_3               |                1 |              6 |         6.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[19].w3          | CPU/instruction2/thirty/q_reg_10              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[9].w3           | CPU/instruction2/thirty/q_reg_17              |                1 |              6 |         6.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[1].w3           | CPU/instruction2/thirty/q_reg_16              |                1 |              6 |         6.00 |
+|  clk_IBUF_BUFG |                                                  |                                               |                4 |              6 |         1.50 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[20].w3          | CPU/instruction2/thirty/q_reg_28              |                1 |              6 |         6.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[31].w3          | CPU/instruction2/thirty/q_reg_12              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[11].w3          | CPU/instruction2/thirty/q_reg_9               |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[16].w3          | CPU/instruction2/thirty/q_reg_25              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[14].w3          | CPU/instruction2/thirty/q_reg_6               |                3 |              6 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[3].w3           | CPU/instruction2/thirty/q_reg_8               |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[17].w3          | CPU/instruction2/thirty/q_reg_18              |                1 |              6 |         6.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[30].w3          | CPU/instruction2/thirty/q_reg_4               |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[15].w3          | CPU/instruction2/thirty/q_reg_14              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[7].w3           | CPU/instruction2/thirty/q_reg_15              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[2].w3           | CPU/instruction2/thirty/q_reg_0               |                1 |              6 |         6.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[21].w3          | CPU/instruction2/thirty/q_reg_21              |                3 |              6 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[24].w3          | CPU/instruction2/thirty/q_reg_26              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[4].w3           | CPU/instruction2/thirty/q_reg_30              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[6].w3           | CPU/instruction2/thirty/q_reg_7               |                3 |              6 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[8].w3           | CPU/instruction2/thirty/q_reg_24              |                3 |              6 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[22].w3          | CPU/instruction2/thirty/q_reg_5               |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[29].w3          | CPU/instruction2/thirty/q_reg_20              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[28].w3          | CPU/instruction2/thirty/q_reg_27              |                2 |              6 |         3.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[25].w3          | CPU/instruction2/thirty/q_reg_19              |                2 |              6 |         3.00 |
+|  clock_BUFG    |                                                  | p2/pwm_serial/pulseCounter[6]_i_1__0_n_0      |                2 |              7 |         3.50 |
+|  w_4MHz        | accel/master/FSM_sequential_state_reg[6]_i_1_n_0 |                                               |                3 |              7 |         2.33 |
+|  clock_BUFG    |                                                  | p1/pwm_serial/load                            |                2 |              7 |         3.50 |
+|  clock_BUFG    | CPU/holdIns/thirtyone/E[0]                       |                                               |                3 |             15 |         5.00 |
+|  clock_BUFG    | CPU/holdIns/thirtyone/q_reg_2[0]                 |                                               |                4 |             15 |         3.75 |
+| ~w_4MHz        | accel/master/latch_data                          |                                               |                4 |             15 |         3.75 |
+|  clk_IBUF_BUFG |                                                  | accel/display_control/anode_timer[16]_i_1_n_0 |                4 |             16 |         4.00 |
+|  w_4MHz        |                                                  |                                               |               10 |             19 |         1.90 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[28].w3          |                                               |               11 |             26 |         2.36 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[8].w3           |                                               |                9 |             26 |         2.89 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[22].w3          |                                               |               12 |             26 |         2.17 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[21].w3          |                                               |               13 |             26 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[24].w3          |                                               |               18 |             26 |         1.44 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[7].w3           |                                               |                9 |             26 |         2.89 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[2].w3           |                                               |               11 |             26 |         2.36 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[30].w3          |                                               |               12 |             26 |         2.17 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[15].w3          |                                               |               13 |             26 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[3].w3           |                                               |               20 |             26 |         1.30 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[17].w3          |                                               |               10 |             26 |         2.60 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[27].w3          |                                               |               25 |             26 |         1.04 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[14].w3          |                                               |                8 |             26 |         3.25 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[31].w3          |                                               |               11 |             26 |         2.36 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[11].w3          |                                               |                8 |             26 |         3.25 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[20].w3          |                                               |               12 |             26 |         2.17 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[1].w3           |                                               |               15 |             26 |         1.73 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[26].w3          |                                               |                8 |             26 |         3.25 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[19].w3          |                                               |               10 |             26 |         2.60 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[5].w3           |                                               |                8 |             26 |         3.25 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[4].w3           |                                               |               10 |             26 |         2.60 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[18].w3          |                                               |               15 |             26 |         1.73 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[6].w3           |                                               |               21 |             26 |         1.24 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[16].w3          |                                               |               13 |             26 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[23].w3          |                                               |               14 |             26 |         1.86 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[12].w3          |                                               |               20 |             26 |         1.30 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[29].w3          |                                               |               14 |             26 |         1.86 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[13].w3          |                                               |                9 |             26 |         2.89 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[10].w3          |                                               |               13 |             26 |         2.00 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[25].w3          |                                               |                9 |             26 |         2.89 |
+|  clock_BUFG    | CPU/instruction2/thirty/gen_loop[9].w3           |                                               |                7 |             26 |         3.71 |
+|  w_4MHz        |                                                  | accel/master/counter[31]_i_1_n_0              |                8 |             31 |         3.88 |
+| ~clock_BUFG    | CPU/md1/C1/T4/flip1/q_reg_1                      |                                               |               19 |             32 |         1.68 |
+| ~clock_BUFG    |                                                  |                                               |              215 |            484 |         2.25 |
++----------------+--------------------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+
+
