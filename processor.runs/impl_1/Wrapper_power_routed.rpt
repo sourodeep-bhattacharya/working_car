@@ -1,8 +1,8 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date             : Mon Apr 22 02:33:52 2024
-| Host             : P2-01 running 64-bit major release  (build 9200)
+| Date             : Tue Apr 23 00:52:01 2024
+| Host             : P2-02 running 64-bit major release  (build 9200)
 | Command          : report_power -file Wrapper_power_routed.rpt -pb Wrapper_power_summary_routed.pb -rpx Wrapper_power_routed.rpx
 | Design           : Wrapper
 | Device           : xc7a100tcsg324-1
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.138        |
+| Total On-Chip Power (W)  | 0.139        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.040        |
+| Dynamic (W)              | 0.042        |
 | Device Static (W)        | 0.098        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.4         |
@@ -53,18 +53,18 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |     0.016 |     6961 |       --- |             --- |
-|   LUT as Logic |     0.016 |     3011 |     63400 |            4.75 |
+| Slice Logic    |     0.017 |     6961 |       --- |             --- |
+|   LUT as Logic |     0.017 |     3012 |     63400 |            4.75 |
 |   Register     |    <0.001 |     1662 |    126800 |            1.31 |
 |   CARRY4       |    <0.001 |       14 |     15850 |            0.09 |
 |   BUFG         |    <0.001 |        2 |        32 |            6.25 |
 |   F7/F8 Muxes  |    <0.001 |        2 |     63400 |           <0.01 |
 |   Others       |     0.000 |     1824 |       --- |             --- |
-| Signals        |     0.017 |     4887 |       --- |             --- |
+| Signals        |     0.018 |     4886 |       --- |             --- |
 | Block RAM      |     0.003 |        7 |       135 |            5.19 |
 | I/O            |     0.003 |       42 |       210 |           20.00 |
 | Static Power   |     0.098 |          |           |                 |
-| Total          |     0.138 |          |           |                 |
+| Total          |     0.139 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -74,7 +74,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.052 |       0.037 |      0.015 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.054 |       0.038 |      0.015 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.018 |       0.000 |      0.018 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.005 |       0.001 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -143,18 +143,18 @@ Table of Contents
 +----------------------------+-----------+
 | Name                       | Power (W) |
 +----------------------------+-----------+
-| Wrapper                    |     0.040 |
-|   CPU                      |     0.027 |
+| Wrapper                    |     0.042 |
+|   CPU                      |     0.029 |
 |     execute                |     0.001 |
 |       ALU                  |     0.001 |
 |     holdIns                |     0.006 |
-|       twentyseven          |     0.002 |
+|       twentyseven          |     0.003 |
 |     instruction            |     0.005 |
 |       fourteenth           |     0.002 |
 |       twentysix            |     0.001 |
 |     instruction2           |     0.006 |
-|       twentynine           |     0.005 |
-|     md1                    |     0.008 |
+|       twentynine           |     0.006 |
+|     md1                    |     0.009 |
 |       C1                   |     0.002 |
 |       D1                   |     0.003 |
 |       M1                   |     0.004 |

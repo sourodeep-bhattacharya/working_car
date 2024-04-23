@@ -75,7 +75,7 @@ reg clock = 0;
    // ADD YOUR MEMORY FILE HERE
    localparam INSTR_FILE = "project";
    wire [9:0] newGyro;
-   assign newGyro = {1'b0, gyro[13:10], 1'b0, gyro[8:5], 1'b0, gyro[3:0]};
+   assign newGyro = {1'b0, gyro[13:10], 1'b0, gyro[8:5]};
    // Main Processing Unit
    processor CPU(.clock(clock), .reset(reset), 
                                

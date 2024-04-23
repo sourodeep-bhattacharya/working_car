@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1713767563">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1713847855">
   <File Type="ROUTE-PWR" Name="Wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Wrapper.tcl"/>
   <File Type="BITSTR-MMI" Name="Wrapper.mmi"/>
@@ -720,12 +720,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Downloads/project.mem">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/imports/Downloads/testingMotor.mem">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/testingMotor.mem"/>
@@ -738,6 +732,14 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/testingMotors2.mem"/>
         <Attr Name="ImportTime" Val="1713758449"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/project.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/project.mem"/>
+        <Attr Name="ImportTime" Val="1713826048"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
